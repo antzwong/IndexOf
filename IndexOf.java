@@ -4,7 +4,7 @@ public class IndexOf {
 		String y = "bb";
 		String z = null;
 		//System.out.println(firstIndexOf(z, x));
-		System.out.println(lastIndexOf(x, y));
+		//System.out.println(lastIndexOf(x, y));
 	}
 
 
@@ -12,7 +12,7 @@ public class IndexOf {
 		if (isValid(x, y)) {
 			return indexOf(x, y, 0, x.length(), true);
 		} else {
-			System.out.println("invalid");
+			//System.out.println("invalid");
 			return -1;
 		}
 	}
@@ -22,7 +22,7 @@ public class IndexOf {
 		if (isValid(x, y)) {
 			return indexOf(x, y, x.length() - y.length(), 0, false);
 		} else {
-			System.out.println("invalid");
+			//System.out.println("invalid");
 			return -1;
 		}
 	}
@@ -35,7 +35,7 @@ public class IndexOf {
 				return i;
 			}
 		}
-		System.out.println("Not in String");
+		//System.out.println("Not in String");
 		return -1;
 	}
 
